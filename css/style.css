@@ -1,0 +1,98 @@
+/* GLOBAL */
+
+
+/* LOGO */
+.fab {
+    color: #000000;
+}
+
+.fa-twitter:hover {
+    color: #55ACEE;
+}
+
+.fa-github:hover {
+    color: #171515;
+}
+
+.fa-google:hover {
+    /* color: #4285F4; */
+    /* color: #DB4437; */
+    /* color: #F4B400; */
+    color: #0F9D58;
+}
+
+.fa-linkedin-in:hover {
+    color: #0082ca;
+}
+
+.fa-facebook:hover {
+    color: #3B5998;
+}
+
+
+/* WRITING */
+.card-writing {
+    background-color: #000000;
+    border: 1px solid #E14141;
+}
+
+/* .card-article:hover {
+    border: 1px solid #E14141;
+} */
+
+
+/* TALKING */
+.card-talking {
+    background-color: #E14141;
+    border: 1px solid #000000;
+}
+
+
+/* CERTIFICATION */
+.cert-list {
+    background-color: #000000; 
+}
+
+.cert-list>a {
+    color: #E14141;
+    text-decoration: none;
+}
+
+.cert-list>a:hover {
+    color: red;
+}
+
+
+/* LESS-TO-NO-IMPACT ACTIVITIES */
+.just-padding {
+    padding: 15px;
+  }
+
+.list-group.list-group-root {
+    padding: 0;
+    overflow: hidden;
+}
+
+.list-group.list-group-root .list-group {
+    margin-bottom: 0;
+}
+
+.list-group.list-group-root .list-group-item {
+    border-radius: 2px solid #000000;
+    border-width: 1px 0 0 0;
+    background-color: #E14141;
+    color: #000000;
+}
+
+.list-group.list-group-root > .list-group-block > .list-group-item:first-child {
+    border-top-width: 0;
+}
+
+.list-group.list-group-root > .list-group-block:hover {
+    background-color: #000000;
+    color: white;
+}
+
+.list-group.list-group-root > .list-group-block > .list-group > .list-group-item {
+padding-left: 50px;
+}

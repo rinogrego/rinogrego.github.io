@@ -1,11 +1,567 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gregorino Al Josan</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+        rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+        href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+        rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+        href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/6.1.0/mdb.min.css"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css"/>
 </head>
 <body>
-  My GitHub Pages
+    <nav class="navbar sticky-top navbar-expand-lg navbar-dark" style="background-color: #E14141;">
+        <div class="container-fluid">
+            <a class="navbar-brand ps-3" href="">Rino's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarMainPage" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarMainPage">
+                <ul class="navbar-nav mr-auto navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item">
+                        <a class="nav-link" href=""><strong></strong></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#skills">Skills</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#blog">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#talks">Talks</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#certifications">Certifications</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <section id="halo" style="background-color: #E14141; color: #000000;">
+        <div class="container pt-3" style="text-align: center;">
+            <div class="row">
+                <div class="container p-2">
+                    <div class="row pb-3">
+                        <div class="photo-image">
+                            <img src="images/rino.jfif" alt="profile-photo" class="rounded-circle" height="250" width="250">
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-3"></div>
+                        <div class="col-md-6" style="border-bottom: 1px solid #000000;">
+                            <h1>Gregorino Al Josan</h1>
+                        </div>
+                        <div class="col-md-3"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 mt-2">
+                    <p class="fs-5">
+                        Welcome to my website!
+                    </p>
+                    <p class="fs-5">
+                        Here you can see all of the projects & writings that I have made. I usually deal with Data Science, Data Analysis, Web Development.
+                    </p>
+                </div>
+                <div class="col-md-3"></div>
+            </div>
+            <div class="row">
+                <div class="container logo-container pt-3 pb-2">
+                    <a href="https://www.twitter.com/GregorinoAJ"><i class="fab fa-twitter fa-2x p-1"></i></a>
+                    <a href="https://www.github.com/rinogrego"><i class="fab fa-github fa-2x p-1"></i></a>
+                    <a href="https://www.linkedin.com/in/gregorino-al-josan"><i class="fab fa-linkedin-in fa-2x p-1"></i></a>
+                    <a href=""><i class="fab fa-google fa-2x p-1"></i></a>
+                    <a href="https://www.facebook.com/gregorinoaj"><i class="fab fa-facebook fa-2x p-1"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" style="background-color: #000000; color: #E14141; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container pt-3 pb-3">
+            <div class="row">
+                <div class="col-md-6 align-self-center">
+                    <div class="container">
+                        <h1 class="text-center">About Me</h1>
+                    </div>
+                </div>
+                <div class="col-md-6 text-center">
+                    <div class="container p-5">
+                        <p>
+                            I am an aspiring Data Scientist who have interests in the field of Artificial Intelligence and Machine Learning. I am also able to utilize Python to build web application. I love to learn new things especially about technologies. Currently, I am pursuing my Bachelor Degree in Mathematic in Indonesia.
+                        </p>
+                        <p style="font-size: small;">
+                            Data Science, Data Analyst, Artificial Intelligence, Web Development
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" style="background-color: #E14141; color: #000000; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <h1 style="text-align: center;" class="pt-3">Skills</h1>
+                </div>
+                <div class="col-4"></div>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row ms-4 mt-5 mb-3">
+                            <h2>Technical</h2>
+                        </div>
+                        <div class="row p-2">
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi dolorum numquam ipsum optio rerum fugit tempore harum architecto maxime repellendus!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row text-end me-4 mt-5 mb-3">
+                            <h2>Data-Related</h3>
+                        </div>
+                        <div class="row p-2">
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Facilis distinctio eius labore dolores dignissimos natus deserunt rerum impedit quos obcaecati at nemo, ab numquam error, veritatis reiciendis iure earum maiores!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" style="background-color: #000000; color: #E14141; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container pb-3">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3" id="projects-title">Projects</h1>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #000000; border: 1px solid #E14141;">
+                        <div class="card-body text-center">
+                            <div class="row" style="color: #A48686">
+                                <div>Data Science</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Player-based Football Match Prediction</h5>
+                            </div>
+                            <div class="row" style="height: 160px">
+                                <p class="p-3 card-text text-start">Predict football match result given players and their positions. Data are scrapped from fbref.</p>
+                            </div>
+                            <div class="align-self-end">
+                                <span><a href="https://www.github.com/rinogrego/Football-Team-Simulation"><i class="fab fa-github fa-2x p-1" style="color: #E14141"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #000000; border: 1px solid #E14141;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row" style="color: #A48686">
+                                <div>Data Science</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Bone Age Analysis using Deep Learning</h5>
+                            </div>
+                            <div class="row" style="height: 160px">
+                                <p class="p-3 card-text text-start">Analyzing the impact of gender information in predicting bone age using CNN with transfer learning.</p>
+                            </div>
+                            <div class="row">
+                                <span><a href="https://www.github.com/rinogrego/Quiz-App"><i class="fab fa-github fa-2x p-1" style="color: #E14141"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #000000; border: 1px solid #E14141;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row" style="color: #A48686">
+                                <div>Web Development</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Quiz Application</h5>
+                            </div>
+                            <div class="row" style="height: 160px">
+                                <p class="p-3 card-text text-start">CS50 Capstone Project. Implemented with Django as backend/server and plain JavaScript.</p>
+                            </div>
+                            <div class="row">
+                                <span><a href="https://www.github.com/rinogrego/Quiz-App"><i class="fab fa-github fa-2x p-1" style="color: #E14141"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #000000; border: 1px solid #E14141;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row" style="color: #A48686">
+                                <div>Data Science</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Multi-Class Sentiment Analysis</h5>
+                            </div>
+                            <div class="row" style="height: 160px">
+                                <p class="p-3 card-text text-start">Analyze sentiment of texts in Bahasa Indonesia using IndoBERT and hybrid deep learning.</p>
+                            </div>
+                            <div class="row">
+                                <span><a href="https://github.com/rinogrego/Multi-Class-Sentiment-Analysis-with-BERT-LSTM-CNN"><i class="fab fa-github fa-2x p-1" style="color: #E14141"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+                
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #000000; border: 1px solid #E14141;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row" style="color: #A48686">
+                                <div>Data Analysis</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">VizBREF</h5>
+                            </div>
+                            <div class="row" style="height: 160px">
+                                <p class="p-3 card-text text-start">Script to automate scraping and visualizing football statistics with fbref data.</p>
+                            </div>
+                            <div class="row">
+                                <span><a href="https://www.github.com/rinogrego/VizBREF"><i class="fab fa-github fa-2x p-1" style="color: #E14141"></i></a></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+            </div>            
+        </div>
+    </section>
+
+    <section id="smol-projects" style="background-color: #E14141; color: #000000; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container pb-3">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3" id="smol-projects-title">smol projects</h1>
+            </div>
+            <div class="row mt-3">
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #E14141; border: 1px solid #000000;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row text-info">
+                                <div>Data Analysis</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Phylogenetic Analysis of Human with Quadruped Animals</h5>
+                            </div>
+                            <div class="row" style="height: 120px">
+                                <p class="p-3 card-text text-start">Analysis of relationship between human with quadruped animals. Done with R.</p>
+                            </div>
+                            <div class="row">
+                                <a href="https://github.com/rinogrego/Phylogenetic-Analysis-Human-vs-Quadruped-Animals-with-R"><i class="fab fa-github fa-2x p-1" style="color: #000000"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #E14141; border: 1px solid #000000;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row text-info">
+                                <div>Data Science</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Bone Age Assessment Deployment with Flask</h5>
+                            </div>
+                            <div class="row" style="height: 120px">
+                                <p class="p-3 card-text text-start">Assess bone age with MobileNet. Deployed with Flask.</p>
+                            </div>
+                            <div class="row">
+                                <a href="https://github.com/rinogrego/Bone-Age-Assessment-Deployment-with-Flask"><i class="fab fa-github fa-2x p-1" style="color: #000000"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+                <div class="col-lg-3 col-md-6 mb-3">
+                    <div class="card h-100" style="background-color: #E14141; border: 1px solid #000000;">
+                        <div class="card-body h-100 text-center">
+                            <div class="row text-info">
+                                <div>Data Science</div>
+                            </div>
+                            <div class="row" style="height: 80px">
+                                <h5 class="card-title align-self-center">Indonesian Text Sentiment Analysis Deployment with Flask</h5>
+                            </div>
+                            <div class="row" style="height: 120px">
+                                <p class="p-3 card-text text-start">Using Flask to deploy sentiment analysis model using IndoBERT-LSTM-CNN.</p>
+                            </div>
+                            <div class="row">
+                                <a href="https://github.com/rinogrego/Indonesian-Text-Sentiment-Analysis-Deployment-with-Flask"><i class="fab fa-github fa-2x p-1" style="color: #000000"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>    
+                
+            </div>  
+        </div>
+    </section>
+
+    <section id="blog" style="background-color: #000000; color: #E14141; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3">Writing</h1>
+            </div>
+            <div class="row">
+                <div class="container pb-3">
+                    <div class="row pb-3">
+                        <div class="card card-writing" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Computer Vision Basic</h5>
+                                    <p>ARTICLE</p>
+                                </div>
+                                <h6 class="card-subtitle mb-2 text-muted">Part 3 - Implementation using Keras</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Article</a>
+                                <a href="#" class="card-link">Code</a>
+                                <a href="#" class="card-link">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row pb-3">
+                        <div class="card card-writing" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Pandas - Working with MultiIndex</h5>
+                                    <p>ARTICLE</p>
+                                </div>
+                                <h6 class="card-subtitle mb-2 text-muted">Part 3 - Navigating Columns</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Article</a>
+                                <a href="#" class="card-link">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row pb-3">
+                        <div class="card card-writing" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Computer Vision Basic</h5>
+                                    <p>ARTICLE</p>
+                                </div>
+                                <h6 class="card-subtitle mb-2 text-muted">Part 2 - Basic Theory and Understanding</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link">Article</a>
+                                <a href="#" class="card-link">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row pb-3">
+                        <div class="card card-writing" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title" style="width: 80%;">Comparative Analysis of Bone Age Assessment Techniques using Hand X-ray Images and Gender Feature</h5>
+                                    <p>PUBLICATION</p>
+                                </div>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link" style="color:#E14141">Paper</a>
+                                <a href="#" class="card-link" style="color:#E14141">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row pb-3" style="text-align: center;">
+                        <div class="container">
+                            <button class="btn" style="color:#E14141; background-color: #000000; border: 1px solid #E14141;">More</button>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="talks" style="background-color: #E14141; color: #000000; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3">Talking</h1>
+            </div>
+            <div class="row">
+                <div class="container pb-3">
+                    <div class="row pb-3">
+                        <div class="card card-talking" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Comparative Analysis of Bone Age Assessment Techniques</h5>
+                                    <p>CONFERENCE</p>
+                                </div>
+                                <h6 class="card-subtitle mb-2 text-dark">8th International Symposium on Current Progress in Mathematics and Sciences</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link" style="color:#000000">Certification</a>
+                                <a href="#" class="card-link" style="color:#000000">Video</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="row pb-3">
+                        <div class="card card-talking" style="width: 100%;">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between">
+                                    <h5 class="card-title">Math Creativity 2 - Machine Learning with Python</h5>
+                                    <p>WORKSHOP</p>
+                                </div>
+                                <h6 class="card-subtitle mb-2 text-dark">Department of Mathematics Universitas Indonesia</h6>
+                                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                                <a href="#" class="card-link" style="color:#000000">Certification</a>
+                                <a href="#" class="card-link" style="color:#000000">Code</a>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="certifications" style="background-color: #000000; color: #E14141; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container pb-3">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3">Certifications</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row p-2 text-center">
+                            <p>
+                                I realize that course certifications won't get one that far, but I put it here to show that at least I have familiarity regarding the fields these course certifications belong to. I by no means say that I am an expert since I probably forgot most of the things I learnt to earn the certifications.
+                            </p>
+                            <p>
+                                "Holy sh*t there are so many.." 
+                            </p>
+                            <p>
+                                Yeah sorry. Either my luck didn't get me to internship opportunities, I just too lazy to keep finding more, or my inner introvert consciousness forced me to just be a nerd and learn things online while coping by kept telling myself that these certifications could help me compete with people who have internship experiences even though these were basically (almost) useless if I didn't do something meaningful after finishing these (such as doing projects). Probably just me, though.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row">
+                            <ul class="list-group list-group-flush ps-4">
+                                <li class="list-group-item cert-list"><a href="#" target="_blank">CS50s Web Development with Python and JavaScript</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DUCPM7M824KH" target="_blank">Google Data Analytics Professional Certification</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/5CY7DJ2FDGAB" target="_blank">Deep Learning Specialization</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/DXFAHFGP279Y" target="_blank">DeepLearning.AI Tensorflow Developer Professional Certification</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/YLKYUDXZVSV2" target="_blank">Tensorflow: Advanced Techniques Specialization</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/Z8GGKUQBWB4M" target="_blank">Machine Learning Engineering for Production (MLOps) Specialization</a></li>
+                                <li class="list-group-item cert-list"><a href="https://www.coursera.org/account/accomplishments/specialization/certificate/XRYZ7MVSPRNS" target="_blank">Data Engineering, Big Data, and Machine Learning on GCP Specialization</a></li>
+                              </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="interests-and-dislikes" style="background-color: #E14141; color: #000000; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container pb-3">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3">Interests & Dislikes</h1>
+            </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row ms-4">
+                            <h2>I don't mind discussing these</h2>
+                        </div>
+                        <div class="row p-2">
+                            <p>
+                                Data-related things, technologies, sports (read: football), and randomly watching some YouTube vids recommended to me. Also a weeb, probably you can call me that, but I mainly dig light novel contents.
+                            </p>
+                            <p>
+                                I can offer some helps regarding Machine Learning projects. Like giving basic concepts or what to learn/to know. Maybe.
+                            </p>
+                            <p>
+                                Or if you just want to ask or discuss about something, you can ask me at Twitter. I often active there. Also facebook but mostly just for memes. Probably my little experiences could help you :)
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="container">
+                        <div class="row text-end me-4">
+                            <h2>Don't expect me on these</h3>
+                        </div>
+                        <div class="row p-2">
+                            <p>
+                                First I am not fond of frontend stuffs. That also goes with anything visual like designer jobs, etc. So expect me to not be proficient at them.
+                            </p>
+                            <p>
+                                Also, I am not really into finance stuffs like actuarial, insurance, and banking. Skip me on those things. Yes, I did pursued math. Yes, many of my college yearmate pursue/seek jobs within those fields. I don't.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" style="background-color: #000000; color: #E14141; padding-top: 50px; padding-bottom: 50px;">
+        <div class="container">
+            <div class="row">
+                <h1 style="text-align: center;" class="p-3">Contact</h1>
+            </div>
+            <div class="row p-3" style="height: 150px;">
+                <span class="text-center">
+                    I am usually pretty active on <a href="https://www.twitter.com/GregorinoAJ">Twitter</a>, so that's where you can talk to me the easiest. But you can also email me <a href="mailto: rino.grego@gmail.com">here</a>.
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <section id="footer" style="background-color: #E14141; color: #000000;">
+        <div class="container">
+            <div class="row" style="height: 100px;">
+                <p class="align-self-center text-center mt-5">Made by Rino, 2023.</p>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js" integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous"></script>
 </body>
 </html>
