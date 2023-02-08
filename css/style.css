@@ -1,11 +1,28 @@
 /* GLOBAL */
 
+* {
+    font-family: "Poppins", sans-serif;
+    scroll-padding-top: 2rem;
+}
 
 section {
     padding: 2em;
-    padding-top: 50px;
-    padding-bottom: 50px;
+    /* padding-top: 50px;
+    padding-bottom: 50px; */
 }
+
+
+/* HALO */
+#halo {
+    /* height: 100vh; */
+}
+
+
+/* ABOUT */
+#about p {
+    font-size: 1.2rem;
+}
+
 
 /* LOGO */
 .fab {
@@ -36,90 +53,72 @@ section {
 }
 
 
-/* WRITING */
-.card-writing {
-    background-color: #000000;
-    border: 1px solid #E14141;
+/* PROJECTS */
+#projects .card {
+    background-color: #343a40;
+    transition: 0.2s transform;
+}
+#projects .card:hover {
+    /* background-color: #f8f9fa;
+    color: #343a40; */
+    transform: scale(1.05);
 }
 
-/* .card-article:hover {
-    border: 1px solid #E14141;
-} */
+/* SMOL PROJECTS */
+#smol-projects .card {
+    background-color: #343a40;
+    color: #f8f9fa;
+    transition: 0.2s transform;
+}
+#smol-projects .card:hover {
+    /* background-color: #f8f9fa;
+    color: #343a40; */
+    transform: scale(1.05);
+}
+
+
+/* WRITING */
+
+#blog .card {
+    background-color: #343a40;
+    transition: 0.21s transform;
+}
+
+#blog .card:hover {
+    transform: scale(1.02);
+}
 
 
 /* TALKING */
-.card-talking {
-    background-color: #E14141;
-    border: 1px solid #000000;
+#talks .card {
+    background-color: #343a40;
+    color: #f8f9fa;
+    transition: 0.21s transform;
+}
+
+#talks .card:hover {
+    transform: scale(1.02);
 }
 
 
 /* CERTIFICATION */
 .cert-list {
-    background-color: #000000; 
-}
-
-.cert-list>a {
-    color: #E14141;
-    text-decoration: none;
-}
-
-.cert-list>a:hover {
-    color: red;
-}
-
-
-/* LESS-TO-NO-IMPACT ACTIVITIES */
-.just-padding {
-    padding: 15px;
-  }
-
-.list-group.list-group-root {
-    padding: 0;
-    overflow: hidden;
-}
-
-.list-group.list-group-root .list-group {
-    margin-bottom: 0;
-}
-
-.list-group.list-group-root .list-group-item {
-    border-radius: 2px solid #000000;
-    border-width: 1px 0 0 0;
-    background-color: #E14141;
-    color: #000000;
-}
-
-.list-group.list-group-root > .list-group-block > .list-group-item:first-child {
-    border-top-width: 0;
-}
-
-.list-group.list-group-root > .list-group-block:hover {
-    background-color: #000000;
-    color: white;
-}
-
-.list-group.list-group-root > .list-group-block > .list-group > .list-group-item {
-padding-left: 50px;
-}
-
-.cert-list {
-    color: #E14141;
+    background-color: #343a40;
+    color: #f8f9fa;
 }
 
 .cert-list:hover {
-    background-color: #E14141;
-    color: #000000;
+    background-color: inherit;
 }
 
 
 /* INTERESTS & DISLIKES */
 #interests-and-dislikes p {
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 
 /* CONTACT */
 #contact p {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
 }
