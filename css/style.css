@@ -102,3 +102,24 @@ section {
 .list-group.list-group-root > .list-group-block > .list-group > .list-group-item {
 padding-left: 50px;
 }
+
+.cert-list {
+    color: #E14141;
+}
+
+.cert-list:hover {
+    background-color: #E14141;
+    color: #000000;
+}
+
+
+/* INTERESTS & DISLIKES */
+#interests-and-dislikes p {
+    font-size: 1.2rem;
+}
+
+
+/* CONTACT */
+#contact p {
+    font-size: 1.2rem;
+}
