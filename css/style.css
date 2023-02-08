@@ -52,6 +52,14 @@ section {
     color: #3B5998;
 }
 
+.fa-download {
+    color: #000000;
+}
+
+.fa-download:hover {
+    color: #343a40;
+}
+
 
 /* PROJECTS */
 #projects .card {
