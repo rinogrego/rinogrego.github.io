@@ -79,9 +79,9 @@ section {
     transition: 0.2s transform;
 }
 
-#projects .card:hover {
+/* #projects .card:hover {
     transform: scale(1.05);
-}
+} */
 
 /* SMOL PROJECTS */
 #smol-projects .card {
@@ -90,9 +90,9 @@ section {
     transition: 0.2s transform;
 }
 
-#smol-projects .card:hover {
+/* #smol-projects .card:hover {
     transform: scale(1.05);
-}
+} */
 
 
 /* WRITING */
@@ -102,9 +102,9 @@ section {
     transition: 0.21s transform;
 }
 
-#blog .card:hover {
+/* #blog .card:hover {
     transform: scale(1.02);
-}
+} */
 
 
 /* TALKING */
@@ -114,9 +114,9 @@ section {
     transition: 0.21s transform;
 }
 
-#talks .card:hover {
+/* #talks .card:hover {
     transform: scale(1.02);
-}
+} */
 
 
 /* CERTIFICATION */
