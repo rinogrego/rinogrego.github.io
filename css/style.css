@@ -12,14 +12,23 @@ section {
 }
 
 
+/* NAVIGATION */
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0; /* remove the gap so it doesn't close */
+    border-radius: 0px;
+}
+
+
 /* HALO */
 #halo {
-    /* height: 100vh; */
+    min-height: 100vh;
 }
 
 
 /* ABOUT */
 #about p {
+    min-height: 100vh;
     font-size: 1.2rem;
 }
 
@@ -66,9 +75,8 @@ section {
     background-color: #343a40;
     transition: 0.2s transform;
 }
+
 #projects .card:hover {
-    /* background-color: #f8f9fa;
-    color: #343a40; */
     transform: scale(1.05);
 }
 
@@ -78,9 +86,8 @@ section {
     color: #f8f9fa;
     transition: 0.2s transform;
 }
+
 #smol-projects .card:hover {
-    /* background-color: #f8f9fa;
-    color: #343a40; */
     transform: scale(1.05);
 }
 
