@@ -7,17 +7,19 @@
 
 section {
     padding: 2em;
-    /* padding-top: 50px;
-    padding-bottom: 50px; */
 }
 
 
 /* NAVIGATION */
-.dropdown:hover .dropdown-menu {
-    display: block;
-    margin-top: 0; /* remove the gap so it doesn't close */
-    border-radius: 0px;
+
+@media (min-width:480px) {
+    .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0; /* remove the gap so it doesn't close */
+        border-radius: 0px;
+    }
 }
+
 
 
 /* HALO */
@@ -70,6 +72,16 @@ section {
 
 .fa-file:hover {
     color: #343a40;
+}
+
+
+/* SKILLS */
+#skills .dropdown-menu {
+    display: none;
+}
+
+#skills .dropdown:hover .dropdown-menu {
+    display: block;
 }
 
 
