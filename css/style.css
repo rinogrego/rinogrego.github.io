@@ -90,6 +90,16 @@ section {
     transition: 0.2s transform;
 }
 
+#projects .card a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#projects .card a:hover {
+    color: gray;
+    text-decoration: none;
+}
+
 /* #projects .card:hover {
     transform: scale(1.05);
 } */
